@@ -1103,3 +1103,534 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1684426845706	geckodriver	INFO	Listening on 127.0.0.1:51974
+1684426848781	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofileqGWeuu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684426849336	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684426849348	Marionette	INFO	Listening on port 51986
+Read port: 51986
+WebDriver BiDi listening on ws://127.0.0.1:51975
+1684426849815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:51975/devtools/browser/47e2de37-78e1-4041-be68-7c339be5fc96
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 3678 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.inquirer.net/search/?q=, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=, line 1291: TypeError: mybutton is null
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15500, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684426898254	Marionette	INFO	Stopped listening on port 51986
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:859:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:799:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:237:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1684426907978	geckodriver	INFO	Listening on 127.0.0.1:52143
+1684426911019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52144" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofilebH5m4y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684426911383	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684426911389	Marionette	INFO	Listening on port 52152
+WebDriver BiDi listening on ws://127.0.0.1:52144
+Read port: 52152
+1684426911699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52144/devtools/browser/0c5120ba-49bb-43dd-bc86-ec9caa3b0bfd
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 7183 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1684427006035	Marionette	INFO	Stopped listening on port 52152
+[Child 360, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 360, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 360, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 360, Main Thread] WARNING: JSWindowActorChild::SendRawM[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52343/devtools/browser/93b202b1-b861-41ca-9f36-23039b09efe2
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 7422 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8124, Main Thread] WARNIJavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 294 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+console.error: "Error while calling actor 'inspector's method 'getHighlighterByType'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: ({})
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 148: Error: The target doesn't support creating highlighters by types or BoxModelHighlighter is unknown
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+[Child 16060, Main Thread] WARNING: JSWindowActorChild::Send1684427218887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofile8lZicY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684427219267	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684427219271	Marionette	INFO	Listening on port 52831
+Read port: 52831
+WebDriver BiDi listening on ws://127.0.0.1:52821
+1684427219484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:52821/devtools/browser/2776bf00-bf79-4c87-bccb-45b198f94163
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 6180 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+[Child 15544, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 15544, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /buconsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684427323133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684427323138	Marionette	INFO	Listening on port 53041
+Read port: 53041
+WebDriver BiDi listening on ws://127.0.0.1:53033
+1684427323859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53033/devtools/browser/81f1576f-ee07-414d-b2aa-85c4ace49f0c
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 3900 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 8216, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684427768349	Marionette	INFO	Stopped listening on port 53041
+Dynamically enable window occlusion 1
+ENDERER.
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 5648, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684427768689	Marionette	INFO	Stopped listening on port 53312
+Dynamically enable window occlusion 1
+1684428144437	geckodriver	INFO	Listening on 127.0.0.1:53822
+1684428147455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53823" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofilemh4zkQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684428148116	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684428148126	Marionette	INFO	Listening on port 53833
+WebDriver BiDi listening on ws://127.0.0.1:53823
+Read port: 53833
+1684428148640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53823/devtools/browser/22895694-21b3-4e09-9c63-819b579bbf31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 5971 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+[Child 16800, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16800, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16800, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16800, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() |[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54034/devtools/browser/0b161310-28c1-483b-8e8a-37ffb50ced4a
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 6229 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.m1684428367303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54260" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofileZwtk7F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684428367966	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684428367971	Marionette	INFO	Listening on port 54270
+Read port: 54270
+WebDriver BiDi listening on ws://127.0.0.1:54260
+1684428368177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54260/devtools/browser/dc60a695-e8de-4ded-a59a-c08b72295177
+[Parent 16252, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 6016 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 18000, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684428443912	Marionette	INFO	Stopped listening on port 54270
+Dynamically enable window occlusion 1
+ line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1684428366456	Marionette	INFO	Stopped listening on port 54042
+Dynamically enable window occlusion 1
+1684428440567	geckodriver	INFO	Listening on 127.0.0.1:54448
+1684428443629	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54449" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofilejht30Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684428444630	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684428444636	Marionette	INFO	Listening on port 54457
+Read port: 54457
+WebDriver BiDi listening on ws://127.0.0.1:54449
+1684428444952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54449/devtools/browser/4a13bfdb-a990-4795-9a68-5d052afae7d8
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 851 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16608, Main Thread] WARNING: JSWindowActorChild::Send1684428619884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofile7M302O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684428620435	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684428620446	Marionette	INFO	Listening on port 54652
+WebDriver BiDi listening on ws://127.0.0.1:54644
+Read port: 54652
+1684428620871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54644/devtools/browser/7d68849b-83c5-4359-9e8d-28e4d0af070c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 3160 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 10180, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684429127114	Marionette	INFO	Stopped listening on port 54652
+Dynamically enable window occlusion 1
+1684429158179	geckodriver	INFO	Listening on 127.0.0.1:54930
+1684429161227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54931" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofileNA63rO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684429161809	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684429161814	Marionette	INFO	Listening on port 54943
+WebDriver BiDi listening on ws://127.0.0.1:54931
+Read port: 54943
+1684429162109	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:54931/devtools/browser/9d0b2819-827e-46d6-a952-46e14cb84ff1
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 7275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1291: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+JavaScript error: https://www.inquirer.net/search/?q=technology, line 1289: TypeError: mybutton is null
+[Child 1520, Main Thread] WARNING: JSWindowActorChild::SendR1684429259118	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofileHlyqKY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684429259796	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684429259802	Marionette	INFO	Listening on port 55542
+WebDriver BiDi listening on ws://127.0.0.1:55533
+Read port: 55542
+1684429260035	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55533/devtools/browser/c2ef6254-cedd-4537-8aaa-909af1da5a00
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 4373 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+1684429401485	Marionette	INFO	Stopped listening on port 55542
+[Child 16964, Main Thread] WARNING: JSWindowActorChild::SendRawMessage (Conduits, ConduitClosed) not sent: !CanSend() || !mManager || !mManager->CanSend(): file /builds/worker/checkouts/gecko/dom/ipc/jsactor/JSWindowActorChild.cpp:57
+Dynamically enable window occlusion 1
+ndowActor 'DevToolsFrame'
+1684429258099	Marionette	INFO	Stopped listening on port 54943
+Dynamically enable window occlusion 1
+1684429398425	geckodriver	INFO	Listening on 127.0.0.1:55733
+1684429401474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55734" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\luis\\AppData\\Local\\Temp\\rust_mozprofile7h6JZq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1684429402449	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1684429402461	Marionette	INFO	Listening on port 55744
+Read port: 55744
+WebDriver BiDi listening on ws://127.0.0.1:55734
+1684429402708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55734/devtools/browser/288dd7d4-87a0-4329-b135-e22e1dd62630
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oKPwcP-deonJmdk-VuVCerVM0HYOOiEgue33yvnOnyk.js line 2 > eval line 2328 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 18612, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2193: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2193: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1684429510779	Marionette	INFO	Stopped listening on port 55744
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receiv[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]:[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+es IPC close with reason=AbnormalShutdown
+ CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Dynamically enable window occlusion 1
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Shutting down due to socket process crash.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown

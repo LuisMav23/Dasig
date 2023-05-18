@@ -1,30 +1,46 @@
+#import flask modules
 from flask import Flask, jsonify
 from flask_restful import Api, Resource, reqparse
 
+#import firebase modules
 import firebase_admin
 from firebase_admin import credentials, firestore
+
+
+#import custom modules
+from password_manager import passwordManager
 
 app = Flask(__name__)
 api = Api(app)
 
-cred = credentials.Certificate('./src/dasig-10fad-firebase-adminsdk-n34bd-1d8d189d71.json')
+cred = credentials.Certificate('./src/scripts/dasig-10fad-firebase-adminsdk-n34bd-1d8d189d71.json')
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
 
+salt = "jF4kT6m9sL2zA8qW15$#v3!p@9&r*"
+
 # Users Class that handles GET and POST requests for the users endpoint
 class Users(Resource):
     
-    def get(self):
-        data = []
-        users_ref = db.collection('User')
-        docs = users_ref.get()
-        for doc in docs:
-            data.append(doc.to_dict())
-        return jsonify(data), 200
+    def get(self, email, password):
+        users_ref = db.collection('Users')
+        user = users_ref.where("email", "==", email).get()
+        pmanager = passwordManager(salt)
+        user_dict = user[0].to_dict();
+        if pmanager.check_password(password, user_dict['password']):
+            return user_dict , 200
+        else:
+            return "Invalid Credentials", 401
+        
+        
     
-    def post(self):
+    def post(self, email, password):
         # parses the request
+        users_ref = db.collection('Users')
+        user = users_ref.where("email", "==", email).get()
+        if len(user) > 0:
+            return "User already exists", 400
         parser = reqparse.RequestParser()
         parser.add_argument('contact_number', required=True)
         parser.add_argument('email', required=True)
@@ -56,6 +72,8 @@ class Users(Resource):
         for skill in args['skills'].split(','):
             skills_list.append(skill.strip())
             
+        pmanager = passwordManager(salt)
+            
         # encloses the data into a json/dict
         data = {
             'contact_number': args['contact_number'],
@@ -65,7 +83,7 @@ class Users(Resource):
             'last_name': args['last_name'],
             'location': args['location'],
             'middle_name': args['middle_name'],
-            'password': args['password'],
+            'password': pmanager.encrypt_password(str(args['password'])),
             'prefered_job_locations': pref_loc_list,
             'previous_positions': prev_pos_list,
             'sex': args['sex'],
@@ -78,15 +96,10 @@ class Users(Resource):
         new_doc_ref.set(data)
         return data , 201
     
-class FieldsOfWork(Resource):
-    
-    def get(this):
-        data = []
-        
+
     
 # Add the resource to the api
-api.add_resource(Users, '/users/')
-api.add_resource(FieldsOfWork, '/field_of_work/')
+api.add_resource(Users, '/users/<email>/<password>')
 
 
 # Run the app
