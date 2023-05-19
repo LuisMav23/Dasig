@@ -6,21 +6,25 @@ from flask_restful import Api, Resource, reqparse
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-
 #import custom modules
 from password_manager import passwordManager
 
+#==================================================================
+
+#initialize API
 app = Flask(__name__)
 api = Api(app)
 
+#initilialize firebase access
 cred = credentials.Certificate('./src/scripts/dasig-10fad-firebase-adminsdk-n34bd-1d8d189d71.json')
 firebase_admin.initialize_app(cred)
-
 db = firestore.client()
 
+#encryption shts
 salt = "jF4kT6m9sL2zA8qW15$#v3!p@9&r*"
 
-# Users Class that handles GET and POST requests for the users endpoint
+#==================================================================
+# Users Class that handles GET and POST requests
 class Users(Resource):
     
     def get(self, email, password):
@@ -39,8 +43,10 @@ class Users(Resource):
         # parses the request
         users_ref = db.collection('Users')
         user = users_ref.where("email", "==", email).get()
+        
         if len(user) > 0:
             return "User already exists", 400
+        
         parser = reqparse.RequestParser()
         parser.add_argument('contact_number', required=True)
         parser.add_argument('email', required=True)
@@ -96,10 +102,32 @@ class Users(Resource):
         new_doc_ref.set(data)
         return data , 201
     
+# Jobs Class that handles GET and POST requests
+class Jobs (Resource):
+    
+    def get(self):
+        jobs_ref = db.collection('Jobs')
+        jobs = jobs_ref.get()
+        jobs_list = []
+        for job in jobs:
+            jobs_list.append(job.to_dict())
+        return jobs_list, 200
+    
+    def post(self):
+        jobs_ref = db.collection('Jobs')
+        parser = reqparse.RequestParser()
+        parser.add_argument('position', required=True)
+        parser.add_argument('employer_name', required=True)
+        parser.add_argument('location', required=True)
+        parser.add_argument('salary', require=True)
+        parser.add_argument('job_description', required=True)
+        parser.add_argument('listing_link', required=True)
+    
 
     
 # Add the resource to the api
 api.add_resource(Users, '/users/<email>/<password>')
+api.add_resource(Jobs, '/jobs/')
 
 
 # Run the app
