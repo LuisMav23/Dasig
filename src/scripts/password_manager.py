@@ -12,7 +12,7 @@ class passwordManager():
         hashed_salt = hashlib.sha256(self.salt.encode()).hexdigest()
         hashed_password += hashed_salt
         hashed_password = hashlib.sha256(hashed_password.encode()).hexdigest()
-        hashed_password += hashed_password
+        hashed_password += hashed_password 
         hashed_password = hashlib.sha256(hashed_password.encode()).hexdigest()
         
         # Return the hashed password as a string

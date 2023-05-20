@@ -103,23 +103,13 @@ class Users(Resource):
         new_doc_ref.set(data)
         return data , 201
     
-# Jobs Class that handles GET and POST requests
+# Jobs Class that handles GET requests
 class Jobs (Resource):
     
-    def get(self, search):
+    def get(self, search, limit):
         jobScraping = JobSearch()
-        jobs_list = jobScraping.search(search, 100)
+        jobs_list = jobScraping.search(search, int(limit))
         return jobs_list, 200
-    
-    def post(self):
-        jobs_ref = db.collection('Jobs')
-        parser = reqparse.RequestParser()
-        parser.add_argument('position', required=True)
-        parser.add_argument('employer_name', required=True)
-        parser.add_argument('location', required=True)
-        parser.add_argument('salary', require=True)
-        parser.add_argument('job_description', required=True)
-        parser.add_argument('listing_link', required=True)
     
 
     
