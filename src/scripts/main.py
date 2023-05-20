@@ -8,6 +8,7 @@ from firebase_admin import credentials, firestore
 
 #import custom modules
 from password_manager import passwordManager
+from job_scraping import JobSearch
 
 #==================================================================
 
@@ -105,12 +106,9 @@ class Users(Resource):
 # Jobs Class that handles GET and POST requests
 class Jobs (Resource):
     
-    def get(self):
-        jobs_ref = db.collection('Jobs')
-        jobs = jobs_ref.get()
-        jobs_list = []
-        for job in jobs:
-            jobs_list.append(job.to_dict())
+    def get(self, search):
+        jobScraping = JobSearch()
+        jobs_list = jobScraping.search(search, 100)
         return jobs_list, 200
     
     def post(self):
@@ -127,7 +125,7 @@ class Jobs (Resource):
     
 # Add the resource to the api
 api.add_resource(Users, '/users/<email>/<password>')
-api.add_resource(Jobs, '/jobs/')
+api.add_resource(Jobs, '/jobs/<search>/<limit>')
 
 
 # Run the app
