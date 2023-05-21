@@ -2,7 +2,7 @@ import requests
 import nltk
 
 # url = 'http://127.0.0.1:5000/users/lmlgabriel20321@plm.edu.ph/pogi123'
-url = 'http://127.0.0.1:5000/jobs/python/5'
+url = 'http://127.0.0.1:5000/jobs/python/Manila City|Cavite City/Data Analyst|Data Scientist/java|python'
 data = {
         'contact_number': '09334565717',
         'email': 'lmlgabriel20321@plm.edu.ph',
@@ -20,11 +20,11 @@ data = {
 
 headers = {'Content-Type': 'application/json'}
 # response = requests.get(url, headers=headers)
-# response = requests.post(url, json=data, headers=headers)
+response = requests.post(url, json=data, headers=headers)
 response = requests.get(url, headers=headers)
-print (len(response.json()))
-for job in response.json():
-        tokens = nltk.word_tokenize(job["job_desc"])
-        cleaned_text = ' '.join(tokens)
-        print (cleaned_text)
-        print("\n\n\n")
+# print (response.json())
+# for job in response.json():
+#         tokens = nltk.word_tokenize(job["job_desc"])
+#         cleaned_text = ' '.join(tokens)
+#         print (cleaned_text)
+#         print("\n\n\n")

@@ -1,5 +1,5 @@
 #import flask modules
-from flask import Flask, jsonify
+from flask import Flask
 from flask_restful import Api, Resource, reqparse
 
 #import firebase modules
@@ -33,8 +33,29 @@ class Users(Resource):
         user = users_ref.where("email", "==", email).get()
         pmanager = passwordManager(salt)
         user_dict = user[0].to_dict();
+        
+        #SEPARATES FIELD OF WORKS WITH |
+        fields_of_works = [work for work in user_dict['fields_of_work']]
+        separated_fields = '|'.join(fields_of_works)
+        
+        #SEPARATES JOB LOCATIONS WITH |
+        prefered_job_locations = [work for work in user_dict['prefered_job_locations']]
+        separated_locations = '|'.join(prefered_job_locations)
+        
+        #SEPARATES JOB LOCATIONS WITH |
+        previous_positions = [work for work in user_dict['previous_positions']]
+        separated_positions = '|'.join(previous_positions)
+        
+        #SEPARATES SKILLS WITH |
+        skills = [work for work in user_dict['skills']]
+        separated_skills = '|'.join(skills)
+        
+        comma_separated_data = f"{user_dict['first_name']},{user_dict['last_name']},{user_dict['middle_name']},{user_dict['sex']},{email},{password},{user_dict['contact_number']},{user_dict['location']},"
+        comma_separated_data += f"{separated_fields},{separated_locations},{separated_positions},{separated_skills}"
+        
+        #checks if the password matches
         if pmanager.check_password(password, user_dict['password']):
-            return user_dict , 200
+            return comma_separated_data , 200
         else:
             return "Invalid Credentials", 401
         
@@ -106,7 +127,7 @@ class Users(Resource):
 # Jobs Class that handles GET requests
 class Jobs (Resource):
     
-    def get(self, search, limit):
+    def get(self, search, limit, locations, positions, skills):
         jobScraping = JobSearch()
         jobs_list = jobScraping.search(search, int(limit))
         return jobs_list, 200
@@ -115,7 +136,7 @@ class Jobs (Resource):
     
 # Add the resource to the api
 api.add_resource(Users, '/users/<email>/<password>')
-api.add_resource(Jobs, '/jobs/<search>/<limit>')
+api.add_resource(Jobs, '/jobs/<search>/<limit>/<locations>/<positions>/<skills>')
 
 
 # Run the app
