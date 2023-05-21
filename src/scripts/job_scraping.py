@@ -2,16 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
+
 
 class JobSearch():
     
-    def __init__ (self):
-        nltk.download('stopwords')
-        nltk.download('wordnet')
 
     def search(self, search, limit, locations, positions, skills):
         jobs = []
@@ -57,33 +51,3 @@ class JobSearch():
                     break
 
         return jobs[:limit]
-    
-    def preprocess_text(text):
-        # Tokenize the text into words
-        tokens = word_tokenize(text)
-        
-        # Remove stopwords
-        stop_words = set(stopwords.words('english'))
-        filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
-        
-        # Lemmatize the words
-        lemmatizer = WordNetLemmatizer()
-        lemmatized_tokens = [lemmatizer.lemmatize(word) for word in filtered_tokens]
-        
-        return lemmatized_tokens
-    
-    # evaluates the compatibility of the job
-    # 40% matched skills
-    # 30% matched previous position
-    # 30% matched location
-    def evaluate(self, locations, positions, skills, title, loc, desc):
-        k=[]
-    
-    def filter_locations(self, locations, text):
-        
-    
-    def filyer_positions(self, positions, text):
-        j=[]
-        
-    def filter_skills(self, skills, text):
-        j= []

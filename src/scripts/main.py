@@ -129,7 +129,7 @@ class Jobs (Resource):
     
     def get(self, search, limit, locations, positions, skills):
         jobScraping = JobSearch()
-        jobs_list = jobScraping.search(search, int(limit))
+        jobs_list = jobScraping.search(search, int(limit), locations, positions, skills)
         return jobs_list, 200
     
 
