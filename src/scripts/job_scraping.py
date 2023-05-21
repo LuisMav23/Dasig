@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
+from job_rating import JobRating
+
 
 
 class JobSearch():
@@ -34,13 +36,17 @@ class JobSearch():
                         continue
                     pattern = r'([a-z])([A-Z])'
                     cleaned_text = re.sub(pattern, r'\1 \2', job_desc.text).strip()
+                    evaluator = JobRating()
+                    role = job.select_one("div.z1s6m00.l3gun70.l3gun74.l3gun72").text
+                    company = job.select_one("span.z1s6m00.bev08l1._1hbhsw64y._1hbhsw60._1hbhsw6r").text
+                    location = loc_sal[0].text
     
                     job_temp = {
-                        'role': job.select_one("div.z1s6m00.l3gun70.l3gun74.l3gun72").text,
-                        'company': job.select_one("span.z1s6m00.bev08l1._1hbhsw64y._1hbhsw60._1hbhsw6r").text,
-                        'location': loc_sal[0].text,
+                        'role': role,
+                        'company': company,
+                        'location': location,
                         'salary': loc_sal[1].text if len(loc_sal) > 1 else '',
-                        'job_desc': cleaned_text,
+                        'job_rating': evaluator.evaluate(locations=locations, positions=positions, skills=skills, listing_title=role, loc_list_listing=location, listing_desc=cleaned_text),
                         'link': link
                     }
                     jobs.append(job_temp)

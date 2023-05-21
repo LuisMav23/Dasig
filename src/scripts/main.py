@@ -130,7 +130,14 @@ class Jobs (Resource):
     def get(self, search, limit, locations, positions, skills):
         jobScraping = JobSearch()
         jobs_list = jobScraping.search(search, int(limit), locations, positions, skills)
-        return jobs_list, 200
+        sorted_jobs_list = sorted(jobs_list, key=lambda x: x['job_rating'])
+        sorted_jobs_list = sorted_jobs_list[::-1]
+        job_string = ''
+        for job in sorted_jobs_list:
+            job_string += f"{job['role']},{job['company']},{job['location']},{job['salary']},{job['job_rating']};"
+        
+        return job_string, 200
+        # return jobs_list, 200
     
 
     
