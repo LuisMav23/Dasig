@@ -2,7 +2,7 @@ import requests
 import nltk
 
 # url = 'http://127.0.0.1:5000/users/lmlgabriel20321@plm.edu.ph/pogi123'
-url = 'http://127.0.0.1:5000/jobs/python/20/Manila City|Cavite City/Data Analyst|Data Scientist/java|python'
+url = 'http://127.0.0.1:5000/jobs/python back-end/20/lmlgabriel20321@plm.edu.ph'
 data = {
         'contact_number': '09334565717',
         'email': 'lmlgabriel20321@plm.edu.ph',

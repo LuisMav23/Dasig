@@ -6,6 +6,8 @@ from flask_restful import Api, Resource, reqparse
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+import requests
+
 #import custom modules
 from password_manager import passwordManager
 from job_scraping import JobSearch
@@ -61,7 +63,7 @@ class Users(Resource):
         
         
     
-    def post(self, email, password):
+    def post(self, email, password ):
         # parses the request
         users_ref = db.collection('Users')
         user = users_ref.where("email", "==", email).get()
@@ -132,6 +134,14 @@ class Jobs (Resource):
         users_ref = db.collection('Users')
         user = users_ref.where("email", "==", email).get()
         user_dict = user[0].to_dict();
+        
+        # skills = []
+        # skills_ref = db.collection('Skills')
+        # for skill in user_dict['skills']:
+        #     skill = skills_ref.where("skill_name", "==", skill).get()[0].to_dict()
+        #     for 
+        #     skills.append()
+            
         jobScraping = JobSearch()
         jobs_list = jobScraping.search(search, int(limit), user_dict['prefered_job_locations'], user_dict['previous_positions'], user_dict['skills'])
         sorted_jobs_list = sorted(jobs_list, key=lambda x: x['job_rating'])
@@ -143,13 +153,13 @@ class Jobs (Resource):
             location = job['location'].replace(",", " ")
             salary = "N/A" if job['salary'] == "" else job['salary'].replace(",", " ")
             rating = job['job_rating']
-            job_string += f"{role},{company},{location},{salary},{rating};"
+            link = job['link']
+            job_string += f"{role},{company},{location},{salary},{rating},{link};"
         print(len(jobs_list))
         # return job_string, 200
         return sorted_jobs_list, 200
-    
+        
 
-    
 # Add the resource to the api
 api.add_resource(Users, '/users/<email>/<password>')
 api.add_resource(Jobs, '/jobs/<search>/<limit>/<email>')
