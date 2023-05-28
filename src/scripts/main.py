@@ -127,23 +127,32 @@ class Users(Resource):
 # Jobs Class that handles GET requests
 class Jobs (Resource):
     
-    def get(self, search, limit, locations, positions, skills):
+    def get(self, search, limit, email):
+        print(limit)
+        users_ref = db.collection('Users')
+        user = users_ref.where("email", "==", email).get()
+        user_dict = user[0].to_dict();
         jobScraping = JobSearch()
-        jobs_list = jobScraping.search(search, int(limit), locations, positions, skills)
+        jobs_list = jobScraping.search(search, int(limit), user_dict['prefered_job_locations'], user_dict['previous_positions'], user_dict['skills'])
         sorted_jobs_list = sorted(jobs_list, key=lambda x: x['job_rating'])
         sorted_jobs_list = sorted_jobs_list[::-1]
         job_string = ''
         for job in sorted_jobs_list:
-            job_string += f"{job['role']},{job['company']},{job['location']},{job['salary']},{job['job_rating']};"
-        
-        return job_string, 200
-        # return jobs_list, 200
+            role = job['role'].replace(",", " ")
+            company = job['company'].replace(",", " ")
+            location = job['location'].replace(",", " ")
+            salary = "N/A" if job['salary'] == "" else job['salary'].replace(",", " ")
+            rating = job['job_rating']
+            job_string += f"{role},{company},{location},{salary},{rating};"
+        print(len(jobs_list))
+        # return job_string, 200
+        return sorted_jobs_list, 200
     
 
     
 # Add the resource to the api
 api.add_resource(Users, '/users/<email>/<password>')
-api.add_resource(Jobs, '/jobs/<search>/<limit>/<locations>/<positions>/<skills>')
+api.add_resource(Jobs, '/jobs/<search>/<limit>/<email>')
 
 
 # Run the app

@@ -50,10 +50,10 @@ class JobSearch():
                         'link': link
                     }
                     jobs.append(job_temp)
-                    if len(jobs) >= limit:
-                        break
+                    # if len(jobs) >= limit:
+                    #     break
 
-                if len(jobs) >= limit:
-                    break
+                # if len(jobs) >= limit:
+                #     break
 
         return jobs[:limit]

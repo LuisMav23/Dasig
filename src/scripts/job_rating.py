@@ -24,13 +24,14 @@ class JobRating():
 
     
     # evaluates the compatibility of the job
-    # 40% matched skills
-    # 35% matched previous position
-    # 25% matched location
+    # 60% matched skills
+    # 25% matched previous position
+    # 15% matched location
     def evaluate(self, locations, positions, skills, listing_title, loc_list_listing, listing_desc):
-        skills = skills.split('|')
-        positions = positions.split('|')
-        locations = locations.split('|')
+        # skills = skills.split(',')
+        # positions = positions.split(',')
+        # locations = locations.split(',')
+        
         skills_rating = self.filter_skills(skills, listing_title, listing_desc)
         positions_rating = self.filyer_positions(positions, listing_title, listing_desc)
         locations_rating = self.filter_locations(locations, loc_list_listing)
@@ -38,7 +39,7 @@ class JobRating():
         print(skills_rating)
         print(positions_rating)
         print(locations_rating)
-        return (skills_rating * 0.4) + (positions_rating * 0.35) + (locations_rating * 0.25)
+        return (skills_rating * 0.6) + (positions_rating * 0.25) + (locations_rating * 0.15)
     
     def filter_locations(self, locations, loc_list_listing):
         preprocessed_text = self.preprocess_text(loc_list_listing)
