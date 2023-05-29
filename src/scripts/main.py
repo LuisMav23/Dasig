@@ -82,9 +82,6 @@ class Users(Resource):
         parser.add_argument('skills', required=True)
         args = parser.parse_args()
         
-        fields_list = []
-        for field in args['fields_of_work'].split(','):
-            fields_list.append(field.strip())
         
         pref_loc_list = []
         for loc in args['prefered_job_locations'].split(','):
