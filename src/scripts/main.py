@@ -36,10 +36,6 @@ class Users(Resource):
         pmanager = passwordManager(salt)
         user_dict = user[0].to_dict();
         
-        #SEPARATES FIELD OF WORKS WITH |
-        fields_of_works = [work for work in user_dict['fields_of_work']]
-        separated_fields = '|'.join(fields_of_works)
-        
         #SEPARATES JOB LOCATIONS WITH |
         prefered_job_locations = [work for work in user_dict['prefered_job_locations']]
         separated_locations = '|'.join(prefered_job_locations)
@@ -52,8 +48,8 @@ class Users(Resource):
         skills = [work for work in user_dict['skills']]
         separated_skills = '|'.join(skills)
         
-        comma_separated_data = f"{user_dict['first_name']},{user_dict['last_name']},{user_dict['middle_name']},{user_dict['sex']},{email},{password},{user_dict['contact_number']},{user_dict['location']},"
-        comma_separated_data += f"{separated_fields},{separated_locations},{separated_positions},{separated_skills}"
+        comma_separated_data = f"{user_dict['first_name']},{user_dict['last_name']},{user_dict['middle_name']},{user_dict['sex']},{email},{password},{user_dict['contact_number']},{user_dict['location']},{user_dict['fields_of_work']}"
+        comma_separated_data += f",{separated_locations},{separated_positions},{separated_skills}"
         
         #checks if the password matches
         if pmanager.check_password(password, user_dict['password']):
@@ -156,8 +152,8 @@ class Jobs (Resource):
             link = job['link']
             job_string += f"{role},{company},{location},{salary},{rating},{link};"
         print(len(jobs_list))
-        # return job_string, 200
-        return sorted_jobs_list, 200
+        return job_string, 200
+        # return sorted_jobs_list, 200
         
 
 # Add the resource to the api
